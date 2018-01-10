@@ -1,0 +1,1728 @@
+body{
+   margin: 0;
+}
+
+.menu {
+    background-color: #fad97f;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+    .menu a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-decoration-color: black;
+        padding: 8px;
+        padding-top: 30px;
+        font-size: 20px;
+        display: block;
+        transform: translate(0, 50%)
+    }
+@media only screen and (max-width: 550px) {
+    .menu a {
+    font-size: 10px;
+    }
+}
+
+    .page1 {
+        padding-left: 15%;
+    }
+
+        .page1 h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 250%;
+            text-align: center;
+        }
+@media only screen and (max-width: 550px) {
+    .page1 h1 {
+        font-size: 150%;
+    }
+}
+
+    /*Begin image list*/
+    .allshirts {
+        margin-left: 15%;
+    }
+
+    .shirt1 {
+        background-color: #a4d2fc;
+        margin: 0;
+        display: none;
+        position: relative;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt1 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt1 p2 {
+            font-size: 250%;
+        }
+
+        .shirt1 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt1 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt1 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt1 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt2 {
+        background-color: #a4d2fc;
+        margin: 0;
+        display: none;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt2 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt2 p2 {
+            font-size: 250%;
+        }
+
+        .shirt2 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt2 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt2 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt2 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt3 {
+        background-color: #a4d2fc;
+        margin: 0;
+        display: none;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt3 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt3 p2 {
+            font-size: 250%;
+        }
+
+        .shirt3 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt3 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt3 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt3 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt4 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt4 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt4 p2 {
+            font-size: 250%;
+        }
+
+        .shirt4 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt4 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt4 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt4 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt5 {
+        background-color: #a4d2fc;
+        margin: 0;
+        display: none;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt5 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt5 p2 {
+            font-size: 250%;
+        }
+
+        .shirt5 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt5 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt5 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt5 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt6 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt6 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt6 p2 {
+            font-size: 250%;
+        }
+
+        .shirt6 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt6 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt6 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt6 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt7 {
+        background-color: #a4d2fc;
+        margin: 0;
+        display: none;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt7 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt7 p2 {
+            font-size: 250%;
+        }
+
+        .shirt7 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt7 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt7 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt7 a {
+                    font-size: 100%;
+                }
+            }
+
+    .shirt8 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt8 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt8 p2 {
+            font-size: 250%;
+        }
+
+        .shirt8 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt8 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt8 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt8 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt9 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt9 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt9 p2 {
+            font-size: 250%;
+        }
+
+        .shirt9 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt9 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt9 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt9 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt10 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt10 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt10 p2 {
+            font-size: 250%;
+        }
+
+        .shirt10 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt10 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt10 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt10 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt11 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt11 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt11 p2 {
+            font-size: 250%;
+        }
+
+        .shirt11 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt11 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt11 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt11 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt12 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt12 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt12 p2 {
+            font-size: 250%;
+        }
+
+        .shirt12 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt12 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt12 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt12 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt13 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt13 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt13 p2 {
+            font-size: 250%;
+        }
+
+        .shirt13 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt13 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt13 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt13 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt14 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt14 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt14 p2 {
+            font-size: 250%;
+        }
+
+        .shirt14 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt14 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt14 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt14 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt15 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt15 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt15 p2 {
+            font-size: 250%;
+        }
+
+        .shirt15 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt15 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt15 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt15 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt16 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt16 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt16 p2 {
+            font-size: 250%;
+        }
+
+        .shirt16 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt16 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt16 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt16 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt17 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt17 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt17 p2 {
+            font-size: 250%;
+        }
+
+        .shirt17 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt17 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt17 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt17 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt18 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt18 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt18 p2 {
+            font-size: 250%;
+        }
+
+        .shirt18 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt18 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt18 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt18 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt19 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt19 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt19 p2 {
+            font-size: 250%;
+        }
+
+        .shirt19 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt19 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt19 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt19 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt20 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt20 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt20 p2 {
+            font-size: 250%;
+        }
+
+        .shirt20 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt20 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt20 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt20 a {
+                    font-size: 100%;
+                }
+}
+
+    .shirt21 {
+        background-color: #a4d2fc;
+        margin: 0;
+        position: relative;
+        display: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .shirt21 p1 {
+            font-size: 250%;
+            position: absolute;
+        }
+
+        .shirt21 p2 {
+            font-size: 250%;
+        }
+
+        .shirt21 a {
+            font-size: 200%;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+            @media only screen and (max-width: 550px) {
+
+                .shirt21 p1 {
+                    font-size: 150%;
+                }
+
+                .shirt21 p2 {
+                    font-size: 150%;
+                }
+
+                .shirt21 a {
+                    font-size: 100%;
+                }
+}
+    /*End image list*/
+
+    .page2 {
+        margin-left: 15%;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .page2 h2 {
+            text-align: center;
+            font-size: 250%;
+        }
+
+        .page2 a1 {
+            font-size: 100%;
+            text-align: center;
+            margin-left: 17.5%;
+            border: solid;
+            border-width: 2px;
+        }
+
+        .page2 a2 {
+            font-size: 100%;
+            text-align: center;
+            background-color: #ef8686;
+            margin-left: 25%;
+            border: solid;
+            border-width: 2px;
+        }
+
+        .page2 a3 {
+            font-size: 100%;
+            text-align: center;
+            background-color: #a4d2fc;
+            margin-left: 25%;
+            border: solid;
+            border-width: 2px;
+        }
+            @media only screen and (max-width: 550px) {
+                .page2 h2 {
+                    font-size: 150%;
+                }
+
+                .page2 a1 {
+                    margin-left: 17.5%;                   
+                }
+
+                .page2 a2 {
+                    margin-left: 17.5%;
+                }
+
+                .page2 a3 {
+                    margin-left: 17.5%;
+                }
+                
+}
+
+    .customWhite {
+        padding-right: 15%;
+        margin-left: 15%;
+        display: none;
+    }
+
+    .customRed {
+        padding-right: 15%;
+        margin-left: 15%;
+        display: none;
+    }
+
+    .customBlue {
+        padding-right: 15%;
+        margin-left: 15%;
+        display: none;
+    }
+
+    .page3 {
+        padding-left: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .page3 h3 {
+            text-align: center;
+            font-size: 250%;
+        }
+@media only screen and (max-width: 550px) {
+    .page3 h3 {
+        font-size: 150%;
+    }
+}
+
+    /*Shirt Basket list*/
+
+    .basket {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .shirt1Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt1Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt1Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt1Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt1Cart a {
+            font-size: 100%;
+        }
+    }
+
+    .shirt2Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt2Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt2Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt2Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt2Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt3Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt3Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt3Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt3Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt3Cart a {
+            font-size: 100%;
+        }
+    }
+
+    .shirt4Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt4Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt4Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt4Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt4Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt5Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt5Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt5Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt5Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt5Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt6Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt6Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt6Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt6Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt6Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt7Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt7Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt7Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt7Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt7Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt8Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt8Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt8Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt8Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt8Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt9Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt9Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt9Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt9Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt9Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt10Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt10Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt10Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt10Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt10Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt11Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt11Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt11Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt11Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt11Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt12Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt12Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt12Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt12Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt12Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt13Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt13Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt13Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt13Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt13Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt14Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt14Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt14Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt14Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt14Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt15Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt15Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt15Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt15Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt15Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt16Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt16Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt16Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt16Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt16Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt17Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt17Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt17Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt17Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt17Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt18Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt18Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt18Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt18Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt18Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt19Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt19Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt19Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt19Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt19Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt20Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt20Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt20Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt20Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt20Cart a {
+            font-size: 100%;
+        }
+    }
+
+
+    .shirt21Cart {
+        margin: 0;
+        padding-left: 15%;
+        position: relative;
+        display: none;
+    }
+
+        .shirt21Cart p1 {
+            font-size: 150%;
+        }
+
+        .shirt21Cart a {
+            font-size: 150%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(0, -50%);
+            border: solid;
+            border-color: #2338c2;
+            border-width: 3px;
+        }
+
+    @media only screen and (max-width: 550px) {
+        .shirt21Cart p1 {
+            font-size: 100%;
+        }
+
+        .shirt21Cart a {
+            font-size: 100%;
+        }
+    }
+    /*End shirt basket*/
+
+    .page4 {
+        padding-left: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        .page4 h4 {
+            text-align: center;
+            font-size: 250%;
+        }
+
+        .page4 p1 {
+            margin-left: 5%;
+            font-size: 120%;
+        }
+@media only screen and (max-width: 550px) {
+    .page4 h4 {
+        font-size: 150%;
+    }
+
+    .page4 p1 {
+        font-size: 100%;
+    }
+}
+
+
+
+
+ 
+
+
+
+     
